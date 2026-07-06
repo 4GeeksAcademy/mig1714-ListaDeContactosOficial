@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import Button from "./Button";
+
 export const Navbar = () => {
 
 	return (
@@ -8,10 +10,9 @@ export const Navbar = () => {
 				<Link to="/">
 					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
 				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
+				<div className="ml-auto h-100 ">
+					
+					
 				</div>
 			</div>
 		</nav>
